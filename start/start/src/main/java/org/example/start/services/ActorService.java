@@ -32,7 +32,7 @@ public class ActorService {
 
     public void create(CreateActor createActor) {
         Actor actor = new Actor();
-        Movie movie = movieService.findById(createActor.getMovieid());
+        Movie movie = movieService.findById(createActor.getMovieid(""));
         actor.setFirstname(createActor.getFirstname());
         actor.setName(createActor.getName());
         actor.setMovie(movie);

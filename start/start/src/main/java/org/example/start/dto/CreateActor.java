@@ -1,13 +1,17 @@
 package org.example.start.dto;
-
+import org.example.start.dto.CreateMovie;
 public class CreateActor {
+
+    private String firstname;
+    private String name;
+    private String movieId;
 
     public void setFirstname(String firstname) {this.firstname = firstname;}
     public void setName(String name) {this.name = name;}
 
 
     public Object getFirstname() {
-        return null;
+        return firstname;
     }
 
     public String getName() {

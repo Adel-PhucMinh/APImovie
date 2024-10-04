@@ -5,5 +5,7 @@ public enum Category {
 
     HORROR,
 
-    DRAMA
+    DRAMA,
+
+    COMEDY
 }
